@@ -48,8 +48,8 @@
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
   <!--<project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />-->
-  <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" remote="github" revision="lineage-16.0"/>
-  <project path="system/extras/su" name="LineageOS/android_system_extras_su" remote="github" revision="lineage-16.0"/>
+  <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" remote="github" evision="lineage-16.0"/>
+  <!--<project path="system/extras/su" name="LineageOS/android_system_extras_su" />-->
   <project path="vendor/lineage" name="LineageOS/android_vendor_lineage" />
 
   <!-- CodeAurora additions -->
@@ -60,9 +60,9 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" />
+  <!--<project path="external/powertop" name="LineageOS/android_external_powertop" />
   
-   <!--<project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-845" />-->
+  <!--<project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-845" />-->
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-16.0-caf" />
   
   <!--<project path="hardware/qcom/display-caf/sdm845" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-16.0-caf-845" />-->
