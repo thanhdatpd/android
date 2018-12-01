@@ -60,7 +60,7 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
-  <project path="external/powertop" name="LineageOS/android_external_powertop" remote="github" revision="lineage-16.0"/>
+  <project path="external/powertop" name="LineageOS/android_external_powertop" />
   
    <!--<project path="hardware/qcom/audio-caf/sdm845" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-16.0-caf-845" />-->
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-16.0-caf" />
