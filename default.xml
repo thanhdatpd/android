@@ -29,7 +29,7 @@
   <!--<project name="android_device_meizu_msm8953-common" path="device/meizu/msm8953-common" remote="td"  revision="lineage-16.0"/>-->
   <!--<project name="android_vendor_meizu_msm8953-common" path="vendor/meizu/msm8953-common" remote="td"  revision="lineage-16.0"/>-->
   <project name="android_device_qcom_common" path="device/qcom/common" remote="td"  revision="lineage-16.0"/> 
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="td" revision="android-9.0"/>
+  <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="td" revision="android-9.0"/>
   
   
   <!-- AOSP Projects -->
@@ -51,7 +51,7 @@
   </project>
   <project path="art" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
-  <!--<project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" /> -->
+  --<project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
