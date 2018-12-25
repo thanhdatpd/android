@@ -24,11 +24,9 @@
   
   <!-- For meizu m6 note (just for test build) -->
   <project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td" revision="lineage-16.0"/>
-  <project name="android_kernel_meizu_msm8953" path="kernel/meizu/bicot" remote="td" revision="lineage-16.0" />
+  <!--<project name="android_kernel_meizu_msm8953" path="kernel/meizu/bicot" remote="td" revision="lineage-16.0" />-->
   <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td"  revision="lineage-16.0"/> 
-  <!--<project name="android_device_meizu_msm8953-common" path="device/meizu/msm8953-common" remote="td"  revision="lineage-16.0"/>-->
-  <!--<project name="android_vendor_meizu_msm8953-common" path="vendor/meizu/msm8953-common" remote="td"  revision="lineage-16.0"/>-->
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="td"  revision="lineage-16.0"/> 
+  <!--<project name="android_device_qcom_common" path="device/qcom/common" remote="td"  revision="lineage-16.0"/> -->
  <!-- <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="td" revision="android-9.0"/>-->
   <project path="external/libtar" name="LineageOS/android_external_libtar" revision="lineage-15.1" />
   
