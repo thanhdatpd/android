@@ -4,8 +4,8 @@
   <!-- LineageOS additions -->
   <project path="android" name="LineageOS/android" />
   
-  <!--<project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="td"  revision="lineage-16.0"/>-->
-  <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
+  <project name="android_device_lineage_sepolicy" path="device/lineage/sepolicy" remote="td"  revision="lineage-16.0"/>
+  <!--<project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />-->
   
   
   <project path="external/bash" name="LineageOS/android_external_bash" />
