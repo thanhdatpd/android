@@ -29,6 +29,7 @@
   <!--<project name="android_device_qcom_common" path="device/qcom/common" remote="td"  revision="lineage-16.0"/> -->
  <!-- <project path="bootable/recovery-twrp" name="android_bootable_recovery" remote="td" revision="android-9.0"/>-->
   <project path="external/libtar" name="LineageOS/android_external_libtar" revision="lineage-15.1" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="td" revision="lineage-16.0" />
   
   <!-- AOSP Projects -->
 
@@ -585,7 +586,7 @@
   <project path="system/tools/aidl" name="LineageOS/android_system_tools_aidl" groups="pdk" />
   <project path="system/tools/hidl" name="LineageOS/android_system_tools_hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" remote="aosp" />
-  <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
+  <!--<project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />-->
   <project path="system/vold" name="LineageOS/android_system_vold" groups="pdk" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk" remote="aosp" />
   <project path="test/suite_harness" name="platform/test/suite_harness" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
