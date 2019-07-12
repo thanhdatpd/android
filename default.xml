@@ -32,6 +32,8 @@
   <!--<project path="system/update_engine" name="android_system_update_engine" remote="td" revision="los-16.0_Fixpatch" />-->
   <project path="system/update_engine" name="LineageOS/android_system_update_engine" groups="pdk" />
   
+  <project path="external/fsck_msdos" nam="https://github.com/LineageOS/android_external_fsck_msdos" groups="pdk" revision="lineage-16.0"/>
+  
   <!-- AOSP Projects -->
 
   <project path="build/make" name="LineageOS/android_build" groups="pdk" >
