@@ -18,6 +18,18 @@
            sync-c="true"
            sync-j="4" />
 
+  
+    <remote  name="td"
+           fetch="https://github.com/thanhdatPD" 
+            revision="lineage-14.1"/>
+  
+  
+  
+  
+  
+  <project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td" />
+  <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td" /> 
+  
   <!-- AOSP Projects -->
 
   <project path="build" name="LineageOS/android_build" groups="pdk">
