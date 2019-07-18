@@ -29,8 +29,7 @@
   
   <project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td" />
   <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td" /> 
-  <project path="vendor/qcom/opensource/audio" name="LineageOS/android_vendor_qcom_opensource_audio" groups="qcom,pdk-qcom" />
-  <!-- AOSP Projects -->
+   <!-- AOSP Projects -->
 
   <project path="build" name="LineageOS/android_build" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
