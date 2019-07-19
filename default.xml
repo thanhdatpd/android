@@ -535,7 +535,7 @@
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
   <!--<project path="external/ebtables" name="LineageOS/android_external_ebtables" />-->
   <project path="external/gson" name="LineageOS/android_external_gson" />
-  <project path="external/json-c" name="LineageOS/android_external_json-c" />
+  
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
   <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" />
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
@@ -547,6 +547,7 @@
   
   <!--use prebuilt lib-->
   <!--<project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />-->
+  <!--<project path="external/json-c" name="LineageOS/android_external_json-c" />-->
   <!--use prebuilt lib-->
   
   
