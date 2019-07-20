@@ -451,8 +451,8 @@
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
   <project path="system/nativepower" name="platform/system/nativepower" remote="aosp" />
-  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" upstream="refs/heads/cm-14.1" revision="ed4401d0ff90fbb9e43e506ef768439d1f81cae2"/>
-  <!--<project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />-->
+  <!--<project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" upstream="refs/heads/cm-14.1" revision="ed4401d0ff90fbb9e43e506ef768439d1f81cae2"/>
+  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />-->
  
   <project path="system/nvram" name="platform/system/nvram" remote="aosp" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
