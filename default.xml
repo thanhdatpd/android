@@ -22,13 +22,14 @@
     <remote  name="td"
            fetch="https://github.com/thanhdatPD" 
             revision="lineage-14.1"/>
-  
+      <remote  name="td1"
+           fetch="https://github.com/thanhdatPD" />
   
   
   
   
   <!--<project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td" />-->
-  <project name="thanhdatPD/android_device_meizu_bicot" path="device/meizu/bicot" revosion="74ba384e4c2bdd925a188ba6ae688ac1340a606d"  />
+  <project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td1" revosion="74ba384e4c2bdd925a188ba6ae688ac1340a606d"  />
   <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td" /> 
    <!-- AOSP Projects -->
 
