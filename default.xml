@@ -28,7 +28,7 @@
   
   
   <!--<project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td" />-->
-  <project name="android_device_meizu_bicot" path="device/meizu/bicot" upstream="refs/heads/lineage-14.1" revosion="74ba384e4c2bdd925a188ba6ae688ac1340a606d"  />
+  <project name="https://github.com/thanhdatPD/android_device_meizu_bicot" path="device/meizu/bicot" upstream="refs/heads/lineage-14.1" revosion="74ba384e4c2bdd925a188ba6ae688ac1340a606d"  />
   <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td" /> 
    <!-- AOSP Projects -->
 
