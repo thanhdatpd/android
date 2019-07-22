@@ -25,7 +25,7 @@
       <remote  name="td1"
            fetch="https://github.com/thanhdatPD" 
               />
-  
+  <project path="system/netd" name="LineageOS/android_system_netd" groups="pdk" />
   
   
   
