@@ -328,7 +328,8 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/net/ims" name="LineageOS/android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <!-- use prebuilt lib <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" /> -->
+  <!-- use prebuilt lib--> 
+  <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" /> 
 
   
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
@@ -352,7 +353,7 @@
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" />
   <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="LineageOS/android_hardware_qcom_camera" groups="qcom" />
-  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display" revision="cm-14.1-caf-8996" groups="pdk,qcom,qcom_display" />
+  <project path="hardware/qcom/display" name="LineageOS/android_hardware_qcom_display"  groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" />
@@ -549,9 +550,9 @@
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom" revision="cm-14.1-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="cm-14.1-caf" />
   
-  
-  <!--use prebuilt lib
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
+  <!--use prebuilt lib
+  
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
 
   //lost some lib, remove instead
