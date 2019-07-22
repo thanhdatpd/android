@@ -299,7 +299,7 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" remote="aosp" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" remote="aosp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" remote="aosp" />
-  <!--<project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />-->
+  <project path="external/wpa_supplicant_8" name="LineageOS/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" remote="aosp" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk" remote="aosp" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" remote="aosp" />
@@ -356,8 +356,8 @@
   <project path="hardware/qcom/gps" name="LineageOS/android_hardware_qcom_gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="LineageOS/android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" />
-  <!-- //missing kernel, temporary disable
-  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" /> -->
+  <!-- //missing kernel, temporary disable-->
+  <project path="hardware/qcom/wlan" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" /> 
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" groups="pdk" />
   <project path="libcore" name="LineageOS/android_libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" remote="aosp" />
@@ -539,7 +539,7 @@
   <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" />
   <project path="external/brctl" name="LineageOS/android_external_brctl" />
   <project path="external/connectivity" name="LineageOS/android_external_connectivity" />
-  <!--<project path="external/ebtables" name="LineageOS/android_external_ebtables" />-->
+  <project path="external/ebtables" name="LineageOS/android_external_ebtables" />
   <project path="external/gson" name="LineageOS/android_external_gson" />
   
   <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" />
@@ -555,10 +555,11 @@
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
 
   //lost some lib, remove instead
+use prebuilt lib-->
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-14.1-caf" />
  
   <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" />
-  use prebuilt lib-->
+  
   
   
   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" />
