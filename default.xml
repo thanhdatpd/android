@@ -345,8 +345,8 @@
   <project path="hardware/akm" name="platform/hardware/akm" groups="pdk" remote="aosp" />
   <project path="hardware/google/apf" name="platform/hardware/google/apf" groups="pdk" remote="aosp" />
   <project path="hardware/invensense" name="LineageOS/android_hardware_invensense" groups="invensense,pdk" />
-  <!--<project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />-->
+  <project path="hardware/libhardware" name="LineageOS/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="LineageOS/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" remote="aosp" />
   <project path="hardware/qcom/audio/default" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="LineageOS/android_hardware_qcom_bootctrl" groups="pdk" />
