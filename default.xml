@@ -25,7 +25,7 @@
       <remote  name="td1"
            fetch="https://github.com/thanhdatPD" 
               />
-  <project path="system/netd" name="thanhdatPD/android_system_netd" revision="cm-14.1" groups="pdk" />
+
   
   
   
@@ -53,7 +53,7 @@
   <project path="external/tinyalsa" name="LineageOS/android_external_tinyalsa" groups="pdk" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="td1" revision="cm-14.1-caf-8960" groups="pdk,qcom,qcom_display" />
   <project path="external/json-c" name="LineageOS/android_external_json-c" />
-
+  <project path="system/netd" name="thanhdatPD/android_system_netd" revision="cm-14.1" groups="pdk" />
 
 -->  
   
