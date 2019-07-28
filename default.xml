@@ -30,7 +30,7 @@
   
   
   <project name="android_device_meizu_bicot" path="device/meizu/bicot" remote="td" />
-  <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td1" revision="cm-14.1-yuan"/> 
+  <project name="android_vendor_meizu_bicot" path="vendor/meizu/bicot" remote="td1" revision="cm-14.1-wo-halDisplay"/> 
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="td1" revision="cm-14.1-caf-8996" groups="pdk,qcom,qcom_display" />  
   
   
