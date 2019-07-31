@@ -77,10 +77,10 @@
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="7e29d24fc89a133bf4c04b0677320a0733de3e17"/>
   <project path="art" name="LineageOS/android_art" groups="pdk" revision="8b0b7302c8c24e12a840de15f0c8b7b95d42ab6b"/>
-  <project path="bionic" name="android_bionic" remote="td1" revision="cm-14.1" groups="pdk" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
+  <project path="bionic" name="android_bionic" remote="td1" revision="a95093fb82da2c5cb26d3a799865957ebcec402c" groups="pdk" />
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="d488704fd1499f5c2ec579e16e48c14f14314b4a"/>
+  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp-cus" revision="8b252ad1e5a0041f0998d45072f5ac1d8550a01b"/>
+  <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="0931a6d9b3eccd48c3585bf62cc42f63d23bc977"/>
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
   <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
