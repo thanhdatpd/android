@@ -61,22 +61,22 @@
   
   
   
-  
+  <!-- Fix from security  2019-07-05  -->
   
   
    <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" groups="pdk">
+  <project path="build" name="LineageOS/android_build" groups="pdk" revision="a052b2687e0d71ff0b4571dcec86bd43fc8ba9ec">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp-cus" revision ="e27b4933194b4872d6825dfa30bdc7f055377574" />
-  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
+  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" revision="bc43789a938c10cb00b81ddf08239c1b4cea48bb" />
+  <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp-cus" revision="fbb94fefd2caec08180b23e7fbe88fdd87393e56" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
-  <project path="art" name="LineageOS/android_art" groups="pdk" />
+  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="7e29d24fc89a133bf4c04b0677320a0733de3e17"/>
+  <project path="art" name="LineageOS/android_art" groups="pdk" revision="8b0b7302c8c24e12a840de15f0c8b7b95d42ab6b"/>
   <project path="bionic" name="android_bionic" remote="td1" revision="cm-14.1" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
