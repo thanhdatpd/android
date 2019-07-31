@@ -14,6 +14,7 @@
            revision="refs/tags/android-7.1.2_r36" />
     <remote  name="aosp-cus"
            fetch="https://android.googlesource.com"
+           upstream="refs/tags/android-7.1.2_r36"
            review="android-review.googlesource.com" />
 
   <default revision="refs/heads/cm-14.1"        
@@ -66,23 +67,23 @@
   
    <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" groups="pdk" revision="a052b2687e0d71ff0b4571dcec86bd43fc8ba9ec">
+  <project path="build" name="LineageOS/android_build" groups="pdk" revision="a052b2687e0d71ff0b4571dcec86bd43fc8ba9ec" upstream="refs/heads/cm-14.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp-cus" revision ="e27b4933194b4872d6825dfa30bdc7f055377574" />
-  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" revision="bc43789a938c10cb00b81ddf08239c1b4cea48bb" />
+  <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" revision="bc43789a938c10cb00b81ddf08239c1b4cea48bb" upstream="refs/heads/cm-14.1"/>
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp-cus" revision="fbb94fefd2caec08180b23e7fbe88fdd87393e56" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" revision="7e29d24fc89a133bf4c04b0677320a0733de3e17"/>
-  <project path="art" name="LineageOS/android_art" groups="pdk" revision="8b0b7302c8c24e12a840de15f0c8b7b95d42ab6b"/>
+  <project path="art" name="LineageOS/android_art" groups="pdk" revision="8b0b7302c8c24e12a840de15f0c8b7b95d42ab6b" upstream="refs/heads/cm-14.1"/>
   <project path="bionic" name="android_bionic" remote="td1" revision="a95093fb82da2c5cb26d3a799865957ebcec402c" groups="pdk" />
-  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="d488704fd1499f5c2ec579e16e48c14f14314b4a"/>
+  <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" revision="d488704fd1499f5c2ec579e16e48c14f14314b4a" upstream="refs/heads/cm-14.1"/>
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp-cus" revision="8b252ad1e5a0041f0998d45072f5ac1d8550a01b"/>
-  <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="0931a6d9b3eccd48c3585bf62cc42f63d23bc977"/>
-  <project path="developers/build" name="platform/developers/build" remote="aosp" />
-  <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" />
+  <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" revision="0931a6d9b3eccd48c3585bf62cc42f63d23bc977" upstream="refs/heads/cm-14.1"/>
+  <project path="developers/build" name="platform/developers/build" remote="aosp-cus" revision="8ded3d8e3b22cd412698a0c87d843f83edd65773"/>
+  <project path="development" name="LineageOS/android_development" groups="pdk-cw-fs,pdk-fs" revision="16d18b333312066adda31feb55aa47883f907797" upstream="refs/heads/cm-14.1"/>
   <project path="device/common" name="device/common" groups="pdk-cw-fs,pdk" remote="aosp" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" />
   
